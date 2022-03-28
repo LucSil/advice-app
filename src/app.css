@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-Neut-Dark-Blue flex justify-center items-center h-screen;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  @apply mx-4 m2:mx-6;
+}
